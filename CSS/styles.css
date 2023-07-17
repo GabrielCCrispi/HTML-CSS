@@ -13,3 +13,12 @@ h2 {
 }
 
 /*Testando os comentários no CSS */ 
+
+/* Classes e Ids  */
+.p-texto {
+    color: lightgreen;
+}
+
+#titulo-app {
+    color: purple;
+}
