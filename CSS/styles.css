@@ -5,3 +5,11 @@ h1 {
 p {
     color:aqua;
 }
+
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*Testando os comentários no CSS */ 
