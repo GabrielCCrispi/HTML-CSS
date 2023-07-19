@@ -49,3 +49,15 @@ div p {
 .rgba {
     color: rgba(17, 197, 214, 1);
 }
+
+/* Backgrounds */
+
+.div-background {
+    background-image: url('img/forest.jpg');
+    height: 300px;
+
+}
+
+h1{
+    text-align: center;
+}
