@@ -22,3 +22,30 @@ h2 {
 #titulo-app {
     color: purple;
 }
+
+/* Especificidade */
+
+div p {
+    color: red;
+}
+.p-dentro-da-div {
+    color: black;
+}
+
+#p-super-especifico{
+    color: brown;
+}
+
+/* Cores */
+
+.nome {
+    color: orange;
+}
+
+.hexa{
+    color: #6a40c4;
+}
+
+.rgba {
+    color: rgba(17, 197, 214, 1);
+}
