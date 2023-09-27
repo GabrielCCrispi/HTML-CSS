@@ -1,8 +1,37 @@
-.teste{
-    color: red;
+html {
+    font-family: Helvetica;
+    background-color: #D2DFD8;
+}
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: #FFF;
 }
 
 .img-main{
-    width: 1400px;
+    width: 1100px;
     height: 750px;
+}
+
+.destaque{
+    font-weight: bold;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 40px;
+}
+
+.paragrafo-principal {
+    font-style: italic;
 }
