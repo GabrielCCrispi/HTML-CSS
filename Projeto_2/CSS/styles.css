@@ -33,10 +33,91 @@ textarea {
 .header {
     height: 160px;
     padding: 20px;
-    background-color: #673AB7; 
+    background-color: #673ab7;
 }
 
 .header h3 {
     color: #FFF;
     margin-top: 0;
+}
+
+/* Container do formulário */
+.form-container {
+    background-color: #FFF;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -62px;
+}
+
+/* cabeçalho do formulário */
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+
+
+/* corpo formulário */
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    margin: 0;
+}
+
+.required-field {
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.option-list {
+    padding-left: 0px;
+}
+
+.optional_list {
+    list-style: none;   
+}
+
+.btn-submit {
+    background-color: #673AB7;
+    color: #FFF;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;      /* Deixa o texto em MAIUSCULO */
+    cursor: pointer;                /* Faz aparecer o cursor do mouse quando coloca o mouse em cima do btn */
+    transition: .5s;                /* Tempo para trocar de uma forma do btn para outra */
+}
+
+.btn-submit:hover {
+    background-color: #FFF;
+    border-color: #673AB7;
+    color:#673AB7;
 }
